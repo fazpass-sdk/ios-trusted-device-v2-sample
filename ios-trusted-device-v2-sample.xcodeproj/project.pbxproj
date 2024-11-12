@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B017840D2CE18AFE00BA545A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B017840C2CE18AFE00BA545A /* AppDelegate.swift */; };
+		B01784102CE18BAA00BA545A /* Fazpass in Frameworks */ = {isa = PBXBuildFile; productRef = B017840F2CE18BAA00BA545A /* Fazpass */; };
+		B01784132CE195DB00BA545A /* FazpassService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01784122CE195DB00BA545A /* FazpassService.swift */; };
+		B0CAD54E2CE252CE00193900 /* SeamlessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CAD54D2CE252CE00193900 /* SeamlessService.swift */; };
+		B0CDFF932CC8D45900E59537 /* ios_trusted_device_v2_sampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CDFF922CC8D45900E59537 /* ios_trusted_device_v2_sampleApp.swift */; };
+		B0CDFF952CC8D45900E59537 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CDFF942CC8D45900E59537 /* ContentView.swift */; };
+		B0CDFF972CC8D45B00E59537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CDFF962CC8D45B00E59537 /* Assets.xcassets */; };
+		B0CDFF9A2CC8D45B00E59537 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CDFF992CC8D45B00E59537 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B017840C2CE18AFE00BA545A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B01784122CE195DB00BA545A /* FazpassService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FazpassService.swift; sourceTree = "<group>"; };
+		B0A9ACD52CE3085F00C54E7D /* ios-trusted-device-v2-sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ios-trusted-device-v2-sample.entitlements"; sourceTree = "<group>"; };
+		B0CAD54D2CE252CE00193900 /* SeamlessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamlessService.swift; sourceTree = "<group>"; };
+		B0CDFF8F2CC8D45900E59537 /* ios-trusted-device-v2-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-trusted-device-v2-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CDFF922CC8D45900E59537 /* ios_trusted_device_v2_sampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_trusted_device_v2_sampleApp.swift; sourceTree = "<group>"; };
+		B0CDFF942CC8D45900E59537 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0CDFF962CC8D45B00E59537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0CDFF992CC8D45B00E59537 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0CDFF8C2CC8D45900E59537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01784102CE18BAA00BA545A /* Fazpass in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B01784112CE195CB00BA545A /* App Service */ = {
+			isa = PBXGroup;
+			children = (
+				B01784122CE195DB00BA545A /* FazpassService.swift */,
+				B0CAD54D2CE252CE00193900 /* SeamlessService.swift */,
+			);
+			path = "App Service";
+			sourceTree = "<group>";
+		};
+		B0CDFF862CC8D45900E59537 = {
+			isa = PBXGroup;
+			children = (
+				B0CDFF912CC8D45900E59537 /* ios-trusted-device-v2-sample */,
+				B0CDFF902CC8D45900E59537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CDFF902CC8D45900E59537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0CDFF8F2CC8D45900E59537 /* ios-trusted-device-v2-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CDFF912CC8D45900E59537 /* ios-trusted-device-v2-sample */ = {
+			isa = PBXGroup;
+			children = (
+				B0A9ACD52CE3085F00C54E7D /* ios-trusted-device-v2-sample.entitlements */,
+				B01784112CE195CB00BA545A /* App Service */,
+				B0CDFF922CC8D45900E59537 /* ios_trusted_device_v2_sampleApp.swift */,
+				B0CDFF942CC8D45900E59537 /* ContentView.swift */,
+				B0CDFF962CC8D45B00E59537 /* Assets.xcassets */,
+				B0CDFF982CC8D45B00E59537 /* Preview Content */,
+				B017840C2CE18AFE00BA545A /* AppDelegate.swift */,
+			);
+			path = "ios-trusted-device-v2-sample";
+			sourceTree = "<group>";
+		};
+		B0CDFF982CC8D45B00E59537 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B0CDFF992CC8D45B00E59537 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0CDFF8E2CC8D45900E59537 /* ios-trusted-device-v2-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CDFF9D2CC8D45B00E59537 /* Build configuration list for PBXNativeTarget "ios-trusted-device-v2-sample" */;
+			buildPhases = (
+				B0CDFF8B2CC8D45900E59537 /* Sources */,
+				B0CDFF8C2CC8D45900E59537 /* Frameworks */,
+				B0CDFF8D2CC8D45900E59537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-trusted-device-v2-sample";
+			packageProductDependencies = (
+				B017840F2CE18BAA00BA545A /* Fazpass */,
+			);
+			productName = "ios-trusted-device-v2-sample";
+			productReference = B0CDFF8F2CC8D45900E59537 /* ios-trusted-device-v2-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0CDFF872CC8D45900E59537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B0CDFF8E2CC8D45900E59537 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B0CDFF8A2CC8D45900E59537 /* Build configuration list for PBXProject "ios-trusted-device-v2-sample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0CDFF862CC8D45900E59537;
+			packageReferences = (
+				B017840E2CE18BAA00BA545A /* XCRemoteSwiftPackageReference "ios-trusted-device-v2" */,
+			);
+			productRefGroup = B0CDFF902CC8D45900E59537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0CDFF8E2CC8D45900E59537 /* ios-trusted-device-v2-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0CDFF8D2CC8D45900E59537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CDFF9A2CC8D45B00E59537 /* Preview Assets.xcassets in Resources */,
+				B0CDFF972CC8D45B00E59537 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0CDFF8B2CC8D45900E59537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01784132CE195DB00BA545A /* FazpassService.swift in Sources */,
+				B017840D2CE18AFE00BA545A /* AppDelegate.swift in Sources */,
+				B0CDFF952CC8D45900E59537 /* ContentView.swift in Sources */,
+				B0CDFF932CC8D45900E59537 /* ios_trusted_device_v2_sampleApp.swift in Sources */,
+				B0CAD54E2CE252CE00193900 /* SeamlessService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0CDFF9B2CC8D45B00E59537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0CDFF9C2CC8D45B00E59537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CDFF9E2CC8D45B00E59537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-trusted-device-v2-sample/ios-trusted-device-v2-sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-trusted-device-v2-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = FZZ4B7JWH5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fazpass.td-showcase-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0CDFF9F2CC8D45B00E59537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-trusted-device-v2-sample/ios-trusted-device-v2-sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-trusted-device-v2-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = FZZ4B7JWH5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fazpass.td-showcase-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0CDFF8A2CC8D45900E59537 /* Build configuration list for PBXProject "ios-trusted-device-v2-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CDFF9B2CC8D45B00E59537 /* Debug */,
+				B0CDFF9C2CC8D45B00E59537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CDFF9D2CC8D45B00E59537 /* Build configuration list for PBXNativeTarget "ios-trusted-device-v2-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CDFF9E2CC8D45B00E59537 /* Debug */,
+				B0CDFF9F2CC8D45B00E59537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B017840E2CE18BAA00BA545A /* XCRemoteSwiftPackageReference "ios-trusted-device-v2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fazpass-sdk/ios-trusted-device-v2.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B017840F2CE18BAA00BA545A /* Fazpass */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B017840E2CE18BAA00BA545A /* XCRemoteSwiftPackageReference "ios-trusted-device-v2" */;
+			productName = Fazpass;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B0CDFF872CC8D45900E59537 /* Project object */;
+}
