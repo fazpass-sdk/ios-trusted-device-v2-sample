@@ -70,13 +70,23 @@ struct ContentView: View {
                     }
                 }
             } label: {
-                Image(systemName: "ellipsis")
-                    .font(.title.weight(.semibold))
-                    .padding()
-                    .background(Color.green)
-                    .foregroundStyle(.white)
-                    .clipShape(Circle())
-                    .shadow(radius: 4, x: 0, y: 4)
+                if #available(iOS 15.0, *) {
+                    Image(systemName: "ellipsis")
+                        .font(.title.weight(.semibold))
+                        .padding()
+                        .background(Color.green)
+                        .foregroundStyle(.white)
+                        .clipShape(Circle())
+                        .shadow(radius: 4, x: 0, y: 4)
+                } else {
+                    Image(systemName: "ellipsis")
+                        .font(.title.weight(.semibold))
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .clipShape(Circle())
+                        .shadow(radius: 4, x: 0, y: 4)
+                }
             }
             .padding()
         }
@@ -99,7 +109,7 @@ private class ListViewModel: ObservableObject {
     @Published var items: [ViewData] = []
     
     func addText(title: String, value: String) {
-        DispatchQueue.main.sync {
+        DispatchQueue.main.async {
             self.items.append(
                 ViewData(
                     id: self.idIncrementer,
@@ -111,12 +121,12 @@ private class ListViewModel: ObservableObject {
                     )
                 )
             )
+            self.idIncrementer += 1
         }
-        idIncrementer += 1
     }
     
     func addButton(text: String, onClick: @escaping () -> Void) {
-        DispatchQueue.main.sync {
+        DispatchQueue.main.async {
             self.items.append(
                 ViewData(
                     id: self.idIncrementer,
@@ -128,8 +138,8 @@ private class ListViewModel: ObservableObject {
                     )
                 )
             )
+            self.idIncrementer += 1
         }
-        idIncrementer += 1
     }
     
     func removeLast(count: Int) {
